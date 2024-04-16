@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+        body {
+            text-align: center;
+            border: 20px green solid;
+            padding: 20px; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+
+        h2 {
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1 style="color:green;">TRASHTRACK</h1>
+
+        <br>
+        <h4 style="color: rgb(0,128,0);">DATE OF SCHEDULE:
+            <input type="datetime-local">
+        </h4>
+
+        <div
+            style="border: 2px black solid; position:fixed; margin-left: 20% ;margin-top:5%">
+
+            <table class="table table-bordered border-primary">
+                <caption></caption>
+                <thead class>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Color</th>
+                        <th scope="col">Indication</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1.</th>
+
+                        <td><div class="color-item"
+                                style="background-color: red;"></div>
+                        </td>
+                        <td>Maximum Waste</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2.</th>
+                        <td><div class="color-item"
+                                style="background-color: yellow;"></div>
+                        </td>
+                        <td>Average Waste</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3.</th>
+                        <td><div class="color-item"
+                                style="background-color: green;"></div>
+                        </td>
+                        <td>Minimum Waste</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+
+            <style>
+            .color-box {
+
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .color-item {
+                width: 20px;
+                height: 20px;
+                margin: 5px;
+                border: 1px solid #000;
+                cursor: pointer;
+            }
+        </style>
+        </head>
+
+        <body>
+
+            <div class="color-box">
+                <!-- Add more color items as needed -->
+            </div>
+
+        </body>
+
+    </html>
